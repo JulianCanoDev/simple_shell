@@ -32,6 +32,10 @@ $ echo "ls -l" | ./hsh
 .SH SEE ALSO
 .I sh(1), Betty(1)
 .SH BUGS
-No known bugs.
-.SH AUTHOR
+No known bugs. Please do not hesitate to report bugs to
+
+Felipe Serna <1509@holbertonschool.com>
+
+Julian Cano <1591@holbertonschool.com>
+.SH AUTHORS
 Felipe Serna, Julian Cano
