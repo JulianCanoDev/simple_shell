@@ -10,4 +10,5 @@
 #include <stdarg.h>
 
 int _putchar(char c);
+void shell(int ac, char **av, char **env);
 #endif /* SHELL_H */
