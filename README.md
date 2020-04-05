@@ -41,6 +41,9 @@ $
 
 File|Description
 ---|---
+[main.c](./main.c)|entry point
+[shell.c](./shell.c)|executes the shell
+[shell.h](./shell.h)|header
 [man_1_simple_shell](./man_1_simple_shell)|man page
 
 ---
@@ -66,6 +69,26 @@ File|Description
 
 ### 1. Betty would be proud
 * Write a beautiful code that passes the Betty checks
+
+### 3. Simple shell 0.2
+* Handle command lines with arguments
+
+### 4. Simple shell 0.3
+* Handle the PATH
+
+### 5. Simple shell 0.4
+* Implement the exit built-in, that exits the shell
+* Usage: exit
+* You dont have to handle any argument to the built-in exit
+
+### 6. Simple shell 1.0
+* Implement the env built-in, that prints the current environment
+
+### 7. What happens when you type ls -l in the shell
+* Blog:
+	- [Linkedin](https://www.linkedin.com/pulse/draft/AgGTlZkOdysaRAAAAXFIFJMrEYjlsIg0bA_FNaPyr3vz4deuPQPhqDZ_VInQCLvlU6pold4)
+
+---
 
 ## Authors
 * **Felipe Serna** - https://github.com/felipeserna
