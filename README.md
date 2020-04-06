@@ -45,6 +45,8 @@ File|Description
 [shell.c](./shell.c)|executes the shell
 [shell.h](./shell.h)|header
 [man_1_simple_shell](./man_1_simple_shell)|man page
+[built.c](./built.c)|built-in functions
+[helpers.c](./helpers.c)|helper functions
 
 ---
 
