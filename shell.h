@@ -8,7 +8,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <stdarg.h>
-
+#define TOKENS_BUFFER_SIZE 64
 /**
  * struct builtins - structure for built-ins
  * @arg: arguments
