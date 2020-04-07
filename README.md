@@ -48,6 +48,8 @@ File|Description
 [built.c](./built.c)|built-in functions
 [helpers.c](./helpers.c)|helper functions
 [extra.c](./extra.c)|more helper functions
+[_getenv.c](./_getenv.c)|gets inputted env
+[search_cwd.c](./search_cwd.c)|gets current working dir
 
 ---
 
