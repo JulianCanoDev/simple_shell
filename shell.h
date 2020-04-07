@@ -32,4 +32,8 @@ char **split_line(char *line);
 int check_for_builtins(char **args, char *line, char **env);
 int launch_prog(char **args);
 int builtins_checker(char **args);
+int _strcmp(char *s1, char *s2);
+char *_strstr(char *haystack, char *needle);
+int _strlen(char *s);
+void prompt(void);
 #endif /* SHELL_H */
