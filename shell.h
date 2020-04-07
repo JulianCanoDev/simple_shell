@@ -40,4 +40,7 @@ char *_strstr(char *haystack, char *needle);
 int _strlen(char *s);
 void prompt(void);
 extern char **environ;
+char *_getenv(char *env);
+char *search_cwd(char *filename, char *er);
+int execute_prog(char **args, char *line, char **env, int flow);
 #endif /* SHELL_H */
