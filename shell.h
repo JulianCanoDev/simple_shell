@@ -8,6 +8,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <stdarg.h>
+#include <string.h>
 extern char **environ;
 #define TOKENS_BUFFER_SIZE 64
 #define LINE_SIZE 1024
