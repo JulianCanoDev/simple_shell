@@ -45,6 +45,6 @@ char *search_cwd(char *filename, char *er);
 int execute_prog(char **args, char *line, char **env, int flow);
 int bridge(char *check, char **args);
 char *find_path(char *filename, char *tmp, char *er);
-char *read_dir(char *er, struct dirent *s, char *fi, int l, char *p, char *t);
+char *read_dir(char *er, struct dirent *s, char *fil, int l, char *fp, char *t);
 char *save_path(char *tmp, char *path);
 #endif /* SHELL_H */
