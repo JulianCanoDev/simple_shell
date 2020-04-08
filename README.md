@@ -50,6 +50,9 @@ File|Description
 [extra.c](./extra.c)|more helper functions
 [_getenv.c](./_getenv.c)|gets inputted env
 [search_cwd.c](./search_cwd.c)|gets current working dir
+[find_path.c](./find_path.c)|finds PATH
+[bridge.c](./bridge.c)|checks if builtin
+[execute.c](./execute.c)|executes builtin or binary
 
 ---
 
