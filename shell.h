@@ -13,7 +13,12 @@ extern char **environ;
 #define TOKENS_BUFFER_SIZE 64
 #define LINE_SIZE 1024
 #define TOKEN_DELIMITERS " \t\r\n\a"
-
+/**
+ * struct builtins - structure for built-ins
+ * @arg: arguments
+ * @builtin: builtin
+ * Description: structure of shell
+ */
 typedef struct builtins
 {
 	char *arg;
