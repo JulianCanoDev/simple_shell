@@ -28,7 +28,6 @@ typedef struct builtins
 	void (*builtin)(char **args, char *line, char **env);
 } builtins_t;
 
-int _putchar(char c);
 void shell(int ac, char **av, char **env);
 void exit_shell(char **args, char *line, char **env);
 void env_shell(char **args, char *line, char **env);
