@@ -14,14 +14,6 @@ extern char **environ;
 #define LINE_SIZE 1024
 #define TOKEN_DELIMITERS " \t\r\n\a"
 
-/**
- * struct builtins - structure for built-ins
- * @arg: arguments
- * @line: line
- * @env: environment
- * @builtin: builtin
- * Description: structure of shell
- */
 typedef struct builtins
 {
 	char *arg;
