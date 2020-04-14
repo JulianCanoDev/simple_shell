@@ -14,9 +14,7 @@ char *_getline(void)
 	if (temp == EOF)
 	{
 		if (isatty(STDIN_FILENO))
-		{
 			write(1, "\n", 1);
-		}
 		exit(0);
 	}
 	return (line);
@@ -124,9 +122,7 @@ int builtins_checker(char **args)
 	for (i = 0; list[i].arg != NULL; i++)
 	{
 		if (_strcmp(list[i].arg, args[0]) == 0)
-		{
 			return (1);
-		}
 	}
 	return (0);
 }

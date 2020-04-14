@@ -30,9 +30,7 @@ void shell(int ac, char **av, char **env)
 			{
 				args[0] = search_cwd(filename, er);
 				if (args[0] == filename)
-				{
 					write(1, er, 5);
-				}
 			}
 		}
 		if (args[0] != er)
