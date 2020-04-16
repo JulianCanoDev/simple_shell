@@ -94,7 +94,7 @@ File|Description
 
 ### 7. What happens when you type ls -l in the shell
 * Blog:
-	- [Linkedin](https://www.linkedin.com/pulse/draft/AgGTlZkOdysaRAAAAXFIFJMrEYjlsIg0bA_FNaPyr3vz4deuPQPhqDZ_VInQCLvlU6pold4)
+	- [Linkedin](https://www.linkedin.com/pulse/how-does-command-line-interpreter-work-under-hood-serna-barbosa)
 
 ---
 
