@@ -78,24 +78,45 @@ File|Description
 ### 1. Betty would be proud
 * Write a beautiful code that passes the Betty checks
 
-### 3. Simple shell 0.2
+### 2. Simple shell 0.1
+* Write a UNIX command line interpreter.
+* Your Shell should:
+	- Display a prompt and wait for the user to type a command. A command line always ends with a new line.
+	- The prompt is displayed again each time a command has been executed.
+	- The command lines are simple, no semicolons, no pipes, no redirections or any other advanced features.
+	- The command lines are made only of one word. No arguments will be passed to programs.
+	- If an executable cannot be found, print an error message and display the prompt again.
+	- Handle errors.
+	- You have to handle the "end of file" condition (Ctrl+D)
+
+### 3. Simple shell 0.1
 * Handle command lines with arguments
 
-### 4. Simple shell 0.3
-* Handle the PATH
-
-### 5. Simple shell 0.4
+### 5. Simple shell 0.2
 * Implement the exit built-in, that exits the shell
 * Usage: exit
 * You dont have to handle any argument to the built-in exit
 
-### 6. Simple shell 1.0
+### 7. Simple shell 0.3 
+* Handle the PATH
+
+### 8. Simple shell 0.4
+* Implement the exit built-in, that exits the shell
+* Usage: exit
+* You don’t have to handle any argument to the built-in exit
+
+### 11. Simple shell 1.0
 * Implement the env built-in, that prints the current environment
 
-### 7. What happens when you type ls -l in the shell
+### 22. What happens when you type ls -l in the shell
+* Have at least one picture, at the top of the blog post
+* Publish your blog post on Medium or LinkedIn
+* Share your blog post at least on LinkedIn
+* Only one blog post by team
+* The blog post must be done and published before the first deadline (it will be part of the manual review)
+* Please, remember that these blogs must be written in English to further your technical ability in a variety of settings
 * Blog:
-	- [Linkedin](https://www.linkedin.com/pulse/how-does-command-line-interpreter-work-under-hood-serna-barbosa)
-
+	- [Medium](https://medium.com/@antisyllogism/what-happens-when-you-type-ls-l-in-the-shell-21a089cf0eb4)
 ---
 
 ## Authors
