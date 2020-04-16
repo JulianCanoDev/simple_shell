@@ -19,7 +19,7 @@ char *search_cwd(char *filename, char *er)
 	dir = opendir(".");
 	if (!dir)
 	{
-		printf("Error! Unable to open directory.\n");
+		write(2,"Error! Unable to open directory.\n",33);
 		exit(0);
 	}
 	while ((sd = readdir(dir)))
