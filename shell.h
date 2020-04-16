@@ -42,6 +42,5 @@ char *save_path(char *tmp, char *path);
 char *read_dir(char *er, struct dirent *s, char *fi, int l, char *p, char *t);
 char *_getenv(char *env);
 char *_strstr(char *haystack, char *needle);
-
 int _strlen(char *s);
 #endif
