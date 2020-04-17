@@ -78,7 +78,7 @@ File|Description
 ### 1. Betty would be proud
 * Write a beautiful code that passes the Betty checks
 
-### 2. Simple shell 0.1
+### 3. Simple shell 0.1
 * Write a UNIX command line interpreter.
 * Your Shell should:
 	- Display a prompt and wait for the user to type a command. A command line always ends with a new line.
@@ -89,16 +89,13 @@ File|Description
 	- Handle errors.
 	- You have to handle the "end of file" condition (Ctrl+D)
 
-### 3. Simple shell 0.1
+### 5. Simple shell 0.2
 * Handle command lines with arguments
 
-### 5. Simple shell 0.2
+### 7. Simple shell 0.3
 * Implement the exit built-in, that exits the shell
 * Usage: exit
 * You dont have to handle any argument to the built-in exit
-
-### 7. Simple shell 0.3 
-* Handle the PATH
 
 ### 8. Simple shell 0.4
 * Implement the exit built-in, that exits the shell
