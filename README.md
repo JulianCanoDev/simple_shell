@@ -113,7 +113,7 @@ File|Description
 * The blog post must be done and published before the first deadline (it will be part of the manual review)
 * Please, remember that these blogs must be written in English to further your technical ability in a variety of settings
 * Blog:
-	- [Medium](https://medium.com/@antisyllogism/what-happens-when-you-type-ls-l-in-the-shell-21a089cf0eb4)
+	- [Linkedin](https://www.linkedin.com/pulse/how-does-command-line-interpreter-work-under-hood-serna-barbosa)
 ---
 
 ## Authors
